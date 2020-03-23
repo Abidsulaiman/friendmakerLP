@@ -49,9 +49,6 @@ a:hover{
     text-decoration: none;
 }
 
-.dashboardImg{
-    margin-bottom: -180px;
-}
 
 .v-centered{
     display: flex;
@@ -130,12 +127,24 @@ a:hover{
     color: rgba(255, 255, 255, 1);
 }
 
-.mt-150{
-    margin-top: 150px;
+
+.extension-img{
+    margin-bottom: -150px;
+    margin-top: 20px;
 }
 
 .dashboardImg{
     width: 100%;
+}
+
+.owl-nav{
+    text-align: center;
+    font-size: 36px;
+    color: var(--primary);
+}
+
+section{
+    padding: 100px 0;
 }
 
 
@@ -152,6 +161,14 @@ footer{
     .mt-lg-150{
         margin-top: 150px;
     }
+
+    .pt-lg-150{
+        padding-top: 150px;
+    }
+
+    .pt-lg-200{
+        padding-top: 200px!important;
+    }
 }
 
 @media (max-width: 991px){
@@ -167,5 +184,15 @@ footer{
     .nav-pills .nav-link {
         width: 70px;
         height: 70px;
+    }
+    .extension-img {
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+    section{
+        padding: 50px 0;
+    }
+    .tab-content{
+        text-align: center;
     }
 }
