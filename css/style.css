@@ -135,9 +135,9 @@ a:hover{
 }
 
 .dashboardImg{
-    margin-top: 20px;
     width: 100%;
 }
+
 
 footer{
     text-align: center;
@@ -151,5 +151,21 @@ footer{
 @media (min-width: 992px) {
     .mt-lg-150{
         margin-top: 150px;
+    }
+}
+
+@media (max-width: 991px){
+    body{
+        font-size: 14px;
+    }
+    .h2, h2 {
+        font-size: 1.3rem;
+    }
+    .h3, h3 {
+        font-size: 1.25rem;
+    }
+    .nav-pills .nav-link {
+        width: 70px;
+        height: 70px;
     }
 }
