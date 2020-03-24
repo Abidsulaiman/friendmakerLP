@@ -1,6 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Open+Sans:wght@300;400;600&display=swap');
+
 :root{
     --primary: rgb(0,119,181);
     --secondary: rgba(91,193,159,1);
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #344e61;
+}
+
+.h2, h2 {
+    font-size: 1.9rem;
 }
 
 a:hover{
